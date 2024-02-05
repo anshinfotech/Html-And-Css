@@ -1,0 +1,54 @@
+/* .navbar , .left , .heading,.center,.right,ul,li{
+    display: inline;
+}
+
+.center{
+    margin-left: 500px;
+}
+
+.right{
+    margin-left: 400px;
+} */
+
+.navbar,ul{
+    display: flex;
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* align-items: baseline; */
+    /* align-items: end; */
+    /* align-items: start; */
+    align-items: center;
+    /* background-color: rgb(80, 80, 236); */
+}
+.heading,li{
+    color: white;
+}
+
+ul{
+    list-style: none;
+    gap: 10px;
+}
+
+.fa-brands{
+    font-size: 30px;
+}
+
+li:hover{
+    cursor: pointer;
+    color: purple;
+    font-size: 30px;
+}
+.fa-facebook{
+    transition:1s;
+}
+.fa-facebook:hover{
+    color: blue;
+}
+.fa-instagram:hover{
+    color: indigo;
+}

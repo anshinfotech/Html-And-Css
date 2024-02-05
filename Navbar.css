@@ -1,0 +1,54 @@
+/* .navbar,.left,.heading,.center,ul,li,.right{
+    display: inline;
+}
+
+.center{
+    margin-left: 600px;
+}
+
+.right{
+    margin-left: 500px;
+} */
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: lightpink;
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.heading{
+    color: white;
+}
+
+li{
+    color: lightgrey;
+    font-size: 20px;
+    /* margin: 10px; */
+    
+}
+
+li:hover{
+    color: white;
+    cursor: pointer;
+  
+}
+.fa-brands{
+    font-size: 25px;
+}
+
+.fa-facebook{
+    transition: 5s;
+}
+.fa-facebook:hover{
+    color: blue;
+}
+

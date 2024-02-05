@@ -1,0 +1,131 @@
+.container {
+  height: 200px;
+  width: 200px;
+  /* background-color: red; */
+}
+@media screen and (max-width: 800px) {
+  .container {
+    background-color: green;
+  }
+  h1 {
+    font-weight: 100;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  h1 {
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  img {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.div1 {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  /* z-index: 11; */
+}
+.div2 {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  /* z-index: 11; */
+}
+.div3 {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  /* z-index: 11; */
+}
+.div4 {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  /* z-index: 11; */
+}
+.div5 {
+  background-color: gray;
+  height: 100px;
+  width: 100px;
+  /* z-index: 11; */
+}
+.div6 {
+  background-color: teal;
+  height: 100px;
+  width: 100px;
+  /* z-index: 11; */
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 800px) {
+  .parent {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 600px) {
+  .parent {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 300px) {
+  .parent {
+    grid-template-columns: 1fr;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: lightpink;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  /* bottom: 100px; */
+  /* z-index: 10; */
+}
+body {
+  height: 10000px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.heading {
+  color: white;
+}
+
+li {
+  color: lightgrey;
+  font-size: 20px;
+  /* margin: 10px; */
+}
+
+li:hover {
+  color: white;
+  cursor: pointer;
+}
+.fa-brands {
+  font-size: 25px;
+}
+
+.fa-facebook {
+  transition: 5s;
+}
+.fa-facebook:hover {
+  color: blue;
+}

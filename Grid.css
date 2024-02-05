@@ -1,0 +1,73 @@
+.div1{
+  background-color: red;
+}
+.div2{
+  background-color: green;
+  
+}
+
+.div2:hover{
+  animation: changecolor 5s 2;
+}
+
+.div3{
+  background-color: aqua;
+}
+.div4{
+  background-color: yellow;
+}
+.div5{
+  background-color: blueviolet;
+}
+.div6{
+  background-color: pink;
+}
+
+.parent{
+  display: grid;
+  grid-template-columns: 5fr 1fr 2fr 3fr;
+  gap: 50px;
+  
+}
+
+@keyframes changecolor {
+
+  /* from{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+  }
+  to{
+    background-color: brown;
+    height: 50px;
+    width: 200px;
+  } */
+
+  0%{
+    background-color:green ;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  50%{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  70%{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  100%{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+  }
+  
+}
+
