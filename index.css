@@ -129,3 +129,28 @@ li:hover {
 .fa-facebook:hover {
   color: blue;
 }
+
+
+
+.background-img {
+  background: url('./production_id_3831869\ \(2160p\).mp4');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.background-video{
+  height: 500px;
+  width: 250px;
+}
+
+
+
+
+
+h1{
+  position: relative;
+  top: -400px;
+  left: 50px;
+  color: red;
+}
+
